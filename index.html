@@ -8,8 +8,21 @@
     <title>English</title>
 </head>
 <body>
-    <button class="split y11" onclick = "window.location.href='y11';"><h1>YEAR 11</h1></button>
-    <button class="split y12" onclick = "window.location.href='y12';"><h1>YEAR 12</h1></button>
+<div class="split left">
+  <div class="centered">
+    <button class="y11" onclick = "window.location.href='y11.html';"><h1>YEAR 11</h1></button>
+    <p>Status:<p id="y11s"></p></p>
+    <button class="buti" onclick = "changee()"><h1>YEAR 11</h1></button>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <button class="y12" onclick = "window.location.href='y12.html';"><h1>YEAR 12</h1></button>
+    <p>Status:<p id="y12s"></p></p>
+  </div>
+</div>
     
 </body>
+<script src="script.js"></script>
 </html>

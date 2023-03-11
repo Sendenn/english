@@ -1,6 +1,12 @@
 h1{
   color: black;
 }
+.y11{
+    border: 0px;
+}
+.y12{
+    border: 0px;
+}
 .split {
     height: 100%;
     width: 50%;
@@ -8,21 +14,25 @@ h1{
     z-index: 1;
     top: 0;
     overflow-x: hidden;
+    padding-top: 20px;
   }
-.y11{
-    background-color: white;
-    width: 50%;
-    height: 100%;
+.left {
     left: 0;
-    border: 0px;
-}
-.y12{
-    background-color: white;
-    width: 50%;
-    height: 100%;
+    background-color: #111;
+  }
+  
+.right {
     right: 0;
-    border: 0px;
-}
+    background-color: red;
+  }
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 .y11:hover{
     background-color: rgb(200, 200, 200);
 }
