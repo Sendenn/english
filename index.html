@@ -8,21 +8,25 @@
     <title>English</title>
 </head>
 <body>
+
 <div class="split left">
   <div class="centered">
     <button class="y11" onclick = "window.location.href='y11.html';"><h1>YEAR 11</h1></button>
-    <p>Status:<p id="y11s"></p></p>
-    <button class="buti" onclick = "changee()"><h1>YEAR 11</h1></button>
+    <p id="y11s"></p>
+    <p><meter id="y11m" value="0" min="0" max="100" low="14"></meter></p>
+    <button class="buti" onclick = "delete11()"><h1>Delete</h1></button>
   </div>
 </div>
 
 <div class="split right">
   <div class="centered">
     <button class="y12" onclick = "window.location.href='y12.html';"><h1>YEAR 12</h1></button>
-    <p>Status:<p id="y12s"></p></p>
+    <p id="y12s"></p>
+    <p><meter id="y12m" value="0" min="0" max="100" low="22"></meter></p>
+    <button class="buti" onclick = "delete12()"><h1>Delete</h1></button>
   </div>
 </div>
-    
+
 </body>
 <script src="script.js"></script>
 </html>
