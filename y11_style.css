@@ -99,3 +99,8 @@ a{
 #tbo td:nth-child(3){
     border-right: 1px solid black;
 }
+#viszzbutt{
+    position: fixed;
+  bottom: 0px;
+  left: 0px;
+}

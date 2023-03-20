@@ -35,12 +35,3 @@ checkboxes.forEach(checkbox => {
     }
   });
 });
-
-function codeAddress() {
-  if (localStorage.getItem("cchecki") >= 1){
-    document.getElementById('y12s').innerHTML = "Status: " + localStorage.getItem("cchecki")+"/44";
-    let y12p = ((localStorage.getItem("cchecki")/44)*100);
-    document.getElementById("y12m").setAttribute("value", y12p);
-  }
-}
-window.onload = codeAddress;
