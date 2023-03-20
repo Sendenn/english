@@ -9,6 +9,7 @@ h1{
 }
 .buti:active{
     box-shadow: none;
+    -webkit-transform: -webkit-translateY (5px);
     transform: translateY(5px);
 }
 .y11{
@@ -49,9 +50,11 @@ h1{
   }
 .y11:active{
     box-shadow: none;
+    -webkit-transform: -webkit-translateY (5px);
     transform: translateY(5px);
 }
 .y12:active{
   box-shadow: none;
+  -webkit-transform: -webkit-translateY (5px);
   transform: translateY(5px);
 }
